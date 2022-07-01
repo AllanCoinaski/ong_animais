@@ -1,16 +1,40 @@
-# ong_animais
+# Ong Animais
 
-A new Flutter project.
 
-## Getting Started
+A xxx foi contratada por uma ONG de adoção de animais. Você como desenvolvedor do projeto, precisará desenvolver um APP para controlar quem pode acessar a aplicação, além da visualização de informações dos pets disponíveis para adoção.
 
-This project is a starting point for a Flutter application.
+Requisitos obrigatórios
+- [x] O APP deverá ser escrito em dart utilizando o flutter. 
+- [x] Criação de um json contendo uma listagem de e-mails que podem acessar o aplicativo, ou seja, somente pessoas que estiverem com o e-mail nesta lista, poderão logar.
+- [x] Login
+	- [x] Nesta tela validaremos apenas o e-mail (json) da pessoa que está tentando acessar o aplicativo.
+- [x] Listagem dos pets
+	- [x] Nesta listagem devemos considerar os gatos e cachorros. Podem estar listados de forma mesclada ou categorizados.
+- [x] Visualização das informações do pet
+	- [x] Essa tela será exibida ao clicar em um pet na listagem. Nesta tela, devemos mostrar as informações do pet.
+	- [x] Pode mostrar as informações que julgar necessário.
 
-A few resources to get you started if this is your first Flutter project:
+Requisitos que serão considerados como plus
+- [x] Fácil troca de fontes e cores no código.
+- [x] Fácil adaptação a novos providers (APIs).
+- [x] APK do APP.
+- [x] Login persistido na memória, ou seja, ao fechar o APP e abri-lo novamente, o usuário já deverá estar logado.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Observações
+- [x] Os dados dos pets devem ser consumidos através das APIs abaixo.
+- [x] Esta ONG em particular trabalha atualmente somente com gatos e cachorros. Porém, a ONG pretende começar a trabalhar com outros tipos de animais, sendo que, cada espécie de animal, virá de uma API diferente.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+API de cachorro
+https://www.thedogapi.com/
+
+API de gato
+https://thecatapi.com/
+
+## Iniciar o projeto
+
+- git clone
+- flutter pub get
+- flutter run
+- Login: wa@wa.com.br
+- Existe uma apk gerada na pasta apk na raiz do projeto
+
